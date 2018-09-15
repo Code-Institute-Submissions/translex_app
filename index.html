@@ -30,6 +30,11 @@
 
 <body>
     
+        <!-- Particles JS Background -->
+    <div id="particles-js"> </div>
+    <!-- End of background -->
+
+    
  
         <!-- Home heading -->
         <header class="site-header">
@@ -38,6 +43,33 @@
             </div>
         </header>
 
+
+
+
+
+
+
+
+        <!-- Home footer -->
+        <footer class="site-footer">
+            <div class="col-xs-12">
+                <div>Made with <span class="heart">&hearts;</span> by Shane Muirhead</div>
+            </div>
+        </footer>
+        <!-- End of Home footer -->
+
+
+
+   <!-- Particles JS Background CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- My Particles Config (Particles call and src to config file) -->
+    <script>
+        /* particlesJS.load(@dom-id, @path-js */
+        particlesJS.load('particles-js', 'dist/js/particles.js', function() {
+            console.log('particles.js loaded...');
+        });
+    </script>
     
     <!-- Bootstraps JS CDN Links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
