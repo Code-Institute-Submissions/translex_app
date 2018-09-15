@@ -27,8 +27,6 @@ a:hover {
     color: #EFB73E;
 }
 
-
-
 /* Particles JS */
 
 #particles-js {
@@ -53,19 +51,32 @@ a:hover {
 
 /* End of Particles JS */
 
-/* Fork me Ribbon styles */
+/* Pace bar (loading bar) */
 
-.forkme {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 0;
-    z-index: 10;
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
+.pace-inactive {
+    display: none;
+}
 
+.pace .pace-progress {
+    background: #2299dd;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
 
-
+/* End of Pace styles */
 
 /* Headings */
 
@@ -90,6 +101,15 @@ a:hover {
     font-size: 20px;
 }
 
+/* Fork me Ribbon styles */
+
+.forkme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    z-index: 10;
+}
 
 /* Sidebar Button */
 
@@ -99,6 +119,11 @@ a:hover {
     font-size: 30px;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}
+
+#openClose:hover {
+    color: #EFB73E;
+
 }
 
 /* SideBar Nav */
@@ -222,35 +247,6 @@ a:hover {
 
 }
 
-
-/* Pace bar (loading bar) */
-
-.pace {
-    -webkit-pointer-events: none;
-    pointer-events: none;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-
-.pace-inactive {
-    display: none;
-}
-
-.pace .pace-progress {
-    background: #2299dd;
-    position: fixed;
-    z-index: 2000;
-    top: 0;
-    right: 100%;
-    width: 100%;
-    height: 2px;
-}
-
-/* End of Pace styles */
-
-
 /* Home socials */
 
 .home-social {
@@ -265,6 +261,9 @@ a:hover {
 
 }
 
+.home-social i:hover {
+    color: #EFB73E;
+}
 
 .home-social a {
     color: #FFFFFF;
@@ -303,7 +302,7 @@ a:hover {
 
 .home-social span {
     font-size: 1.2rem;
-    color: white;
+    color: #EFB73E;
     right: 4rem;
     opacity: 0;
     visibility: hidden;
@@ -332,4 +331,15 @@ a:hover {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+}
+
+
+/* Page form */
+
+.myForm {
+    margin-top: 150px;
+}
+
+.row-center {
+    justify-content: center;
 }

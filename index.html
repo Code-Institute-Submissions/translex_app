@@ -9,32 +9,28 @@
     <meta name="description" content="Translator App built for Code Institute's milestone 2 project.">
     <meta name="author" content="Shane Muirhead">
 
-   <!-- Bootswatch CSS Link -->
+    <!-- Bootswatch CSS Link -->
     <link rel="stylesheet" href="dist/css/bootstrap_united.css" />
-    
-        <!-- Font Awesome JS -->
+
+    <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
     <!-- My Styles -->
     <link rel="stylesheet" href="dist/css/style.css" />
-
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-
 </head>
 
 <body>
-    
-        <!-- Particles JS Background -->
+
+    <!-- Particles JS Background -->
     <div id="particles-js"> </div>
     <!-- End of background -->
-    
-    
+
     <!-- Nav overlay -->
     <div id="myNav" class="overlay">
 
@@ -43,8 +39,8 @@
 
         <!-- Overlay content -->
         <div class="overlay-content">
-            
-                   <!-- Info heading and paragraph -->
+
+            <!-- Info heading and paragraph -->
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 info-heading">
@@ -96,15 +92,20 @@
 
                 </div>
             </div>
-            
-         
+
         </div>
         <!-- End of overlay content -->
 
     </div>
     <!-- End of Nav overlay -->
 
-           <!-- SideNav button -->
+    <!-- All page content goes here -->
+    <section id="site-content">
+        <!-- Fork me link/image -->
+        <a target="_blank" href="https://github.com/shanemuir"><img class="forkme" src="dist/images/forkme.png" alt="Fork me on GitHub"></a>
+        <!-- End of fork me ribbon -->
+
+        <!-- SideNav button -->
         <div id="content">
             <nav class="navbar">
                 <button type="button" id="openClose" class="btn" onClick="openNav()">
@@ -114,7 +115,6 @@
         </div>
         <!-- End of SideNav button -->
 
- 
         <!-- Home heading -->
         <header class="site-header">
             <div class="col-xs-12">
@@ -122,12 +122,27 @@
             </div>
         </header>
 
-    <!-- Fork me link/image -->
-        <a target="_blank" href="https://github.com/shanemuir"><img class="forkme" src="dist/images/forkme.png" alt="Fork me on GitHub"></a>
-        <!-- End of fork me ribbon -->
+        <!-- End of Home heading -->
 
-
-
+        <div class="container myForm">
+            <div class="row row-center">
+                <div class="col-sm-12">
+                    <form id="textQuery" class="form-inline well justify-content-center" onSubmit="formSubmit">
+                        <input class="form-control" type="text" placeholder="Enter a Word...">
+                        <select class="form-control" model="language" id="inputGroupSelect01">
+                             <label class="input-group-text" for="inputGroupSelect01">Language</label>
+                           <option selected>Choose Language...</option>
+                        </select>
+                        <input class="btn btn-warning" type="submit" value="Translate">
+                        <br>
+                        <br>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="form-control" placeholder="Translation" id="translatedText" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></textarea>
+                </div>
+                </form>
+            </div>
+        </div>
 
 
         <!-- Home Socials -->
@@ -160,9 +175,9 @@
         </footer>
         <!-- End of Home footer -->
 
+    </section>
 
-
-   <!-- Particles JS Background CDN Link -->
+    <!-- Particles JS Background CDN Link -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
     <!-- My Particles Config (Particles call and src to config file) -->
@@ -172,19 +187,17 @@
             console.log('particles.js loaded...');
         });
     </script>
-    
+
     <!-- Bootstraps JS CDN Links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
-    <!-- Open Nav Function -->
-      <script src="/dist/js/openNav.js"></script>
-      
-         <!-- Pace loading script (Youtube looking AJAX loading bar) -->
+
+    <script src="/dist/js/openNav.js"></script>
+
+    <!-- Pace loading script (Youtube looking AJAX loading bar) -->
     <script type="text/javascript" src="dist/js/pace.js"></script>
 
-    
-
 </body>
+
 </html>
