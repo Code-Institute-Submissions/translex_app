@@ -14,6 +14,20 @@ body {
     overflow: hidden;
 }
 
+a {
+    color: #868e96;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: #EFB73E;
+}
+
+
 
 /* Particles JS */
 
@@ -102,6 +116,14 @@ body {
     transition: 0.5s;
 }
 
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .overlay .closebtn {
     position: absolute;
     top: -20px;
@@ -113,6 +135,9 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+.overlay .closebtn:hover {
+    color: #EFB73E;
+}
 
 @media screen and (max-height: 450px) {
     .overlay a {
@@ -124,6 +149,79 @@ body {
         right: 35px;
     }
 }
+
+
+/* Info content */
+
+.info-heading {
+    color: white;
+}
+
+.info-contact {
+    padding-top: 2rem;
+    color: #FFFFFF;
+}
+
+.info-block {
+    margin-bottom: 2rem;
+}
+
+.info-social {
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.info-social:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info-social li {
+    padding: .6rem .6rem .6rem 0;
+    line-height: 3rem;
+    width: 50%;
+    float: left;
+}
+
+.info-social a {
+    color: #FFFFFF;
+    border: none !important;
+}
+
+.info-social i {
+    font-size: 2rem;
+    width: 3.6rem;
+    float: left;
+    position: relative;
+    top: .3rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.info-social span {
+    display: inline-block;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.info-social span:hover {
+    border-bottom: 1px solid transparent;
+    border-color: #EFB73E;
+    line-height: 1.5;
+}
+
+.info-social i:hover {
+    color: #EFB73E;
+
+}
+
 
 /* Pace bar (loading bar) */
 
@@ -152,3 +250,86 @@ body {
 
 /* End of Pace styles */
 
+
+/* Home socials */
+
+.home-social {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    right: 1rem;
+    -webkit-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+
+}
+
+
+.home-social a {
+    color: #FFFFFF;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-social li {
+    position: relative;
+    padding: .9rem 0;
+}
+
+.home-social li a {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.home-social i,
+.home-social span {
+    position: absolute;
+    top: 0;
+    line-height: 36px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-social i {
+    font-size: 20px;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.home-social span {
+    font-size: 1.2rem;
+    color: white;
+    right: 4rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+
+.home-social span::after {
+    display: block;
+    content: "";
+    width: 8px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 50%;
+    right: -18px;
+}
+
+.home-social li:hover span {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
