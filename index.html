@@ -10,19 +10,18 @@
     <meta name="author" content="Shane Muirhead">
 
     <!-- Bootswatch CSS Link -->
-    <link rel="stylesheet" href="dist/css/bootstrap_united.css" />
+    <link rel="stylesheet" href="dist/css/bootstrap_united.min.css" />
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- My Styles -->
-    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="dist/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="dist/images/favicon.ico" type="image/x-icon">
-
 </head>
 
 <body>
@@ -102,7 +101,7 @@
 
 
         <!-- Fork me link/image -->
-        
+
         <a target="_blank" href="https://github.com/shanemuir"><img class="forkme" src="dist/images/forkme.png" alt="Fork me on GitHub"></a>
         <!-- End of fork me ribbon -->
 
@@ -131,11 +130,10 @@
                     <div class="row row-center">
                         <div class="col-sm-12">
                             <form class="form-inline well justify-content-center">
-                                <textarea id="inputText" class="form-control" aria-describedby="inputGroup-sizing-sm" placeholder="Enter a Word..."></textarea>
+                                <textarea id="inputText" class="form-control" placeholder="Enter a Word..."></textarea>
                                 <select class="form-control" id="selectLang">
-                            <label class="input-group-text" for="selectLang">Language</label>
-                             <option selected>Choose Language...</option>
-                        </select>
+                                 <option selected>Choose Language...</option>
+                                </select>
                             </form>
                         </div>
                     </div>
@@ -143,7 +141,7 @@
                         <div class="col-sm-12">
                             <h2 class="translation-header">Translation</h2>
                             <form class="form-inline well justify-content-center">
-                                <textarea class="form-control" placeholder="Translation" id="translation" aria-describedby="inputGroup-sizing-sm"></textarea>
+                                <textarea class="form-control" placeholder="Translation" id="translation"></textarea>
                             </form>
                         </div>
                     </div>
@@ -208,14 +206,11 @@
     <!-- Axios HTTP Client -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    <!-- Open Nav function -->
-    <script src="/dist/js/openNav.js"></script>
-
     <!-- Pace loading script (Youtube looking AJAX loading bar) -->
-    <script type="text/javascript" src="dist/js/pace.js"></script>
+    <script src="dist/js/pace.js"></script>
 
     <!-- My JS -->
-    <script type="text/javascript" src="dist/js/main.js"></script>
+    <script src="dist/js/main.js"></script>
 
 </body>
 
