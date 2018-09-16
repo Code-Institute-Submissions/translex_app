@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://shanemuir.github.io/translex_app"
+  "homepage": "https://shanemuir.github.io/translex_app",
   "dependencies": {
     "gh-pages": "^1.2.0"
   }
