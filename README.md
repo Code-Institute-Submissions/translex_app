@@ -5,12 +5,15 @@ interactive frontend applications.
 
 Throughout this project I will try make use of Jquery for easier manipulation of the DOM and faster production of my application. Where I can I will try to also use plain old javascript if Jquery isnt needed!
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
- 
 ## UX
- 
+
+An application created for mainly English people who would like to translate any word or sentence to a different language, this application gives the user the capability to translate English to a wide variety of languages.
+
+The application is a SPA (single page application) scaled for devices for ease of access. 
+
+
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -20,18 +23,20 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+Particles JS used to create a modern background effect to interest the user, the background is interactive and live. Along with that, there is also interactive buttons dotted around the page
+for interactiveity with the user. I wanted to create a minimal effect but informative aswell.
+
+Overlay Nav was an alertnative to getting lots of infomation on the page whilst keeping the translator looking minimal.
+
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Yandex API used for Users to be able to input text into the form to translate a word or sentence into different languages.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Custom JS used to create abit of interactiveity on the page for UX.
 
-### Features Left to Implement
-- Another feature idea
+#### Features to implement
+
+Update app to have capability to translate any language to any language.
 
 ## Technologies Used
 
@@ -39,13 +44,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-    - Bootswatch Theme United used for their classes for faster styling development.
 
 - [Particles JS] (https://github.com/VincentGarreau/particles.js/)
     - Particles JS used for background effect thanks to **VincentGarreau**
 
 - [Pace Loading bar] (https://github.com/HubSpot/pace)
     - Fancy AJAX loading bar used thanks to **HubSpot**
+
+- [Bootswatch] (https://bootswatch.com/united/)
+    - Bootstrap Bootswatch United theme used for faster development thanks to **Thomas Park**
+
+- [Github Fork Me Ribbon] (https://blog.github.com/2008-12-19-github-ribbons/)
+    - Github ribbon used thank you **mojombo**
 
 ## Testing
 
@@ -69,24 +79,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Site is going to be deployed to GitHub Pages via npm init and the package.json file including the github pages script to the dist folder.
+Deployed version is using minified CSS.
+The site will be deployed on a seperate branch named gh-pages.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+To run this site locally download to full folder ZIP on github and run index.html
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+All content used is dummy content and the paragraphs are created using emmet lorem text.
 
 ### Media
-- The photos used in this site were obtained from ...
+
+Fork me Ribbon used from - [Github Fork Me Ribbon] (https://blog.github.com/2008-12-19-github-ribbons/)
+    - Github ribbon used thank you **mojombo** 
+    
+Favicon create by me using GIMP.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Traversy Media build a Vue translator App (https://www.youtube.com/watch?v=DBADrF0C2ls)
