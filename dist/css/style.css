@@ -343,3 +343,29 @@ a:hover {
 .row-center {
     justify-content: center;
 }
+
+#inputText {
+    width: 500px;
+    height: 100px;
+}
+
+#selectLang {
+    margin-left: 25px;
+    width: 230px;
+}
+
+#translation {
+    z-index: auto;
+    position: relative;
+    line-height: 24px;
+    font-size: 16px;
+    width: 565px;
+    transition: none 0s ease 0s;
+    height: 100px;
+    margin-top: 1em;
+}
+
+.translation-header {
+    margin-top: 1em;
+    color: white;
+}

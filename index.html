@@ -20,15 +20,15 @@
     <link rel="stylesheet" href="dist/css/style.css" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="dist/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="dist/images/favicon.ico" type="image/x-icon">
 
 </head>
 
 <body>
 
     <!-- Particles JS Background -->
-    <div id="particles-js"> </div>
+    <div id="particles-js"></div>
     <!-- End of background -->
 
     <!-- Nav overlay -->
@@ -56,8 +56,8 @@
                         <div class="info-heading">
                             <h3>Start A Conversation</h3>
                             <p class="text-muted">
-                                <a href="mailto:#0" class="info-email">mailus@ourwebsite.com</a><br>
-                                <a href="tel:+18587338912" class="'info-phone">+1.858.733.8912</a>
+                                <a href="mailto:#" class="info-email">hello@shanemuirhead.co.uk</a><br>
+                                <a href="tel:+442550194252" class="'info-phone">+44.255.0194.252</a>
                             </p>
                         </div>
 
@@ -66,23 +66,23 @@
 
                             <ul class="info-social">
                                 <li>
-                                    <a href="#0"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i>
                             <span>Facebook</span></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span>Twiiter</span></a>
+                                    <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span>Twiter</span></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>
                             <span>Instagram</span></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i>
-                            <span>Behance</span></a>
+                                    <a href="#"><i class="fab fa-github" aria-hidden="true"></i>
+                            <span>Github</span></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i>
+                                    <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>
                             <span>Dribbble</span></a>
                                 </li>
                             </ul>
@@ -106,63 +106,66 @@
         <!-- End of fork me ribbon -->
 
         <!-- SideNav button -->
-        <div id="content">
-            <nav class="navbar">
-                <button type="button" id="openClose" class="btn" onClick="openNav()">
+        <nav class="navbar">
+            <button type="button" id="openClose" class="btn" onClick="openNav()">
                 <i class="fas fa-align-left"></i>
-                    </button>
-            </nav>
-        </div>
+             </button>
+        </nav>
         <!-- End of SideNav button -->
 
         <!-- Home heading -->
         <header class="site-header">
             <div class="col-xs-12">
-                <h1>Welcome to Trans<span class="text-warning">Lex</span> </h1>
+                <h1>Welcome to Trans<span class="text-warning">Lex</span></h1>
             </div>
         </header>
-
         <!-- End of Home heading -->
 
-        <div class="container myForm">
+        <!-- Translator form -->
+        <div class="container myForm text-center">
             <div class="row row-center">
                 <div class="col-sm-12">
-                    <form id="textQuery" class="form-inline well justify-content-center" onSubmit="formSubmit">
-                        <input class="form-control" type="text" placeholder="Enter a Word...">
-                        <select class="form-control" model="language" id="inputGroupSelect01">
-                             <label class="input-group-text" for="inputGroupSelect01">Language</label>
-                           <option selected>Choose Language...</option>
+                    <form class="form-inline well justify-content-center">
+                        <textarea id="inputText" class="form-control" aria-describedby="inputGroup-sizing-sm" placeholder="Enter a Word..."></textarea>
+                        <select class="form-control" id="selectLang">
+                            <label class="input-group-text" for="selectLang">Language</label>
+                             <option selected>Choose Language...</option>
                         </select>
-                        <input class="btn btn-warning" type="submit" value="Translate">
-                        <br>
-                        <br>
+                    </form>
                 </div>
-                <div class="col-sm-6">
-                    <textarea class="form-control" placeholder="Translation" id="translatedText" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="translation-header">Translation</h2>
+                    <form class="form-inline well justify-content-center">
+                        <textarea class="form-control" placeholder="Translation" id="translation" aria-describedby="inputGroup-sizing-sm"></textarea>
+                    </form>
                 </div>
-                </form>
             </div>
         </div>
+        <!-- End of translator form -->
 
 
         <!-- Home Socials -->
-        <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
-            </li>
-        </ul>
+        <aside class="home-social">
+            <ul class="home-social">
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+                </li>
+            </ul>
+        </aside>
         <!-- End of home-socials -->
 
 
@@ -193,10 +196,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+    <!-- Axios HTTP Client -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- Open Nav function -->
     <script src="/dist/js/openNav.js"></script>
 
     <!-- Pace loading script (Youtube looking AJAX loading bar) -->
     <script type="text/javascript" src="dist/js/pace.js"></script>
+
+    <!-- My JS -->
+    <script type="text/javascript" src="dist/js/main.js"></script>
 
 </body>
 
