@@ -9,7 +9,7 @@ function getLanguages(){
         let languageCode = {
             name:'',
             code:''
-        }
+        };
         for(language in languages) {
             languageCode.name = languages[language];
             languageCode.code = language;
@@ -26,7 +26,7 @@ function getLanguages(){
 
 function translateText(textArg){
     let searchText;
-    if(textArg == ''){
+    if(textArg.trim() == ''){
         searchText = document.querySelector('#inputText').value;
     }
     else{
@@ -42,17 +42,22 @@ function translateText(textArg){
         .catch((err) => {
             console.log(err);
         });
-    }
-}
-
+    } else {
+    document.querySelector('#translation').value = '';
+}}
+    
+    
 searchInput.addEventListener('keyup',() => {
     translateText('');
-})
+});
 
 select.addEventListener('change',() => {
     selectedLang = select.options[select.selectedIndex].value;
     translateText('');
-})
+});
+
+
+
 
 getLanguages();
 
