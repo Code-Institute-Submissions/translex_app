@@ -36,7 +36,8 @@ Custom JS used to create abit of interactiveity on the page for UX.
 
 #### Features to implement
 
-Update app to have capability to translate any language to any language.
+Update app to have capability to translate any language to any language. (Not just english to XXXX)
+Implement more UI/UX. Types.JS, Animate.CSS, Wow.JS - USing external sources/libaries to speed up development and not reinvent the wheel.
 
 ## Technologies Used
 
@@ -101,3 +102,5 @@ Favicon create by me using GIMP.
 ### Acknowledgements
 
 - I received inspiration for this project from Traversy Media build a Vue translator App (https://www.youtube.com/watch?v=DBADrF0C2ls)
+
+

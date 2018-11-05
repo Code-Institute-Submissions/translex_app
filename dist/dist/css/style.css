@@ -81,12 +81,16 @@ a:hover {
 /* Headings */
 
 .site-header {
-    padding-top: 1em;
     color: white;
     text-align: center;
     position: relative;
     width: 100%;
 }
+
+.title-typed {
+        font-size: 36px;
+}
+
 
 .site-footer {
     color: white;
@@ -185,12 +189,6 @@ a:hover {
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 50px;
-}
-
-.info-social:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .info-social li {
@@ -324,8 +322,8 @@ a:hover {
 /* Page form */
 
 .myForm {
-    margin-top: 80px;
-    margin-bottom: 65px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .row-center {
@@ -340,6 +338,9 @@ a:hover {
 #selectLang {
     margin-left: 25px;
     width: 230px;
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
 }
 
 #translation {
@@ -347,17 +348,55 @@ a:hover {
     position: relative;
     line-height: 24px;
     font-size: 16px;
-    width: 565px;
+    width: 500px;
     transition: none 0s ease 0s;
     height: 100px;
     margin-top: 1em;
 }
 
 .translation-header {
-    margin-top: 1em;
+    margin-top: 20px;
     color: white;
 }
 
+/* Self-made UX */
+
+.spin-me {    
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
 
 /* Media queries */
 
