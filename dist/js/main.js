@@ -56,9 +56,6 @@ select.addEventListener('change',() => {
     translateText('');
 });
 
-
-
-
 getLanguages();
 
 // Overlay Nav
