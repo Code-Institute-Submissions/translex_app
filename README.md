@@ -30,7 +30,7 @@ The navigation is design to hold information around TransLex without being intru
 
 An application created for mainly English people who would like to translate any word or sentence to a different language, this application gives the user the capability to translate English to a wide variety of languages.
 
-The application is a SPA (single page application) scaled for devices for ease of acces and use.
+The application is a SPA (single page application) scaled for devices for ease of access and use.
 
 The application has been designed in a way to suit all users as easy as possible, future development could be to get the app in other languages to be applicable world-wide. 
 
@@ -48,7 +48,7 @@ I wish there was a website that could be straight forward to use, for translatin
 
 Is there a site out there that isn't a bulky monster for just translating a word or sentence? 
 
-There should be an app which I can bookmark to my phone or my books mark bar and instantly be able to load quickly up a app that can translate to many other languages. 
+There should be an app which I can bookmark to my phone or my books mark bar and instantly be able to load quickly up an app that can translate to many other languages. 
 
 Easy to use translator app. 
 
@@ -60,7 +60,7 @@ As a user from a non-English country my first language isn't English, is there a
 
 As a user I want to be able to land on a webpage and be able to translate my sentence as fast as possible.
 
-As a busy business entrepreneur travelling to many different country I need an app to translate stuff for me as I don't speak any other language. 
+As a busy business entrepreneur travelling to many different country, I need an app to translate stuff for me as I don't speak any other language. 
 
 As a user working in a airport a lot of people ask questions in different languages to what I know, I need an app to assist me when getting asked questions in different languages. 
 
@@ -74,7 +74,7 @@ As a user working in a airport a lot of people ask questions in different langua
 
 #### Why build TransLex 
 
-TransLex was built for simplicity, minimal design for performance. After the app is loading the user interface have been put together to create a easy and fast way to getting words or sentences translated.
+TransLex was built for simplicity, minimal design for performance. After the app is loading the user interface have been put together to create an easy and fast way to getting words or sentences translated.
 I wanted to create A single page app, but also have a full-page navigation for company info and details, social icons and contact information.
 The app is designed to be a landing page style, single page no scrolling to create a easy to use translator. Built for performance and speed. 
 
@@ -92,7 +92,7 @@ The design was solely designed for easy use of the translator, the nav is design
 Interactivity is used around the site to show case tech I’ve learnt throughout my course with Code Institute, I feel the site demonstrates good used of JavaScript I created my API script with just Axios aa promised based HTTP client
 Axios was mainly used for its ability to be able to make XMLHttpreuqests from the browser, and also intercept request and responses in a promised based way. 
 
-Axios has built in Client-side support for protecting against [XSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) to prevent malicious exploit of a website where unauthorized command are transmitted from a user that the web applications trusts.
+Axios has built in Client-side support for protecting against [XSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) to prevent malicious exploit of a website where unauthorized command is transmitted from a user that the web applications trusts.
 
 Yandex API client used for translation and to get all the languages. 
 
@@ -230,10 +230,10 @@ My manual testing consists of me physically testing all functionality on my app.
 Each feature has been built in stages. Testing each new piece of functionality along the way. 
 First, I set up a single page following my wireframing, from the start i decided the app would be one page no scrolling and easy to use. 
 
-After setting up the boiler plate to my app I decided to set the background in place. The background effect is Particles JS see features part for more details on how this plugin is configered and used. After apply the background
-I tested that the plugin was loading corretly via the CDN link, I my console was clear. I first created the mark up for the background in mt HTML file, added the JSON config file to my directory.
+After setting up the boiler plate to my app I decided to set the background in place. The background effect is Particles JS see features part for more details on how this plugin is configured and used. After applying the background
+I tested that the plugin was loading correctly via the CDN link, I my console was clear. I first created the mark up for the background in my HTML file, added the JSON config file to my directory.
 
-Within my HTML file I CDN linked to [Particles.JS](https://vincentgarreau.com/particles.js/) and use the following code snippet to load the plugin core file and load my config file. After load I console log that the file are loaded.
+Within my HTML file I CDN linked to [Particles.JS](https://vincentgarreau.com/particles.js/) and use the following code snippet to load the plugin core file and load my config file. After load I console log that the file is loaded.
 
 ```javascript
      <!-- My Particles Config (Particles call and src to config file) -->
@@ -245,7 +245,7 @@ Within my HTML file I CDN linked to [Particles.JS](https://vincentgarreau.com/pa
     </script>
 ```
 
-Once satified I tested the background on different browsers and screen sizes and also devices. 
+Once satisfied I tested the background on different browsers and screen sizes and also devices. 
 **My app is not support on Internet Explorer due to modern tech used. Please consider using my app on Chrome, Firefox or Microsoft Edge.**
 
 I have been through [CanIUse](https://caniuse.com/) and added all browser prefixes for older browser to get my app support on as many as possible browsers. I ideally wanted to leave this out so that it forced users to update their
@@ -253,57 +253,57 @@ browser but then consider this bad UX.
 
 After my background was set, I started to design the navbar. From my wireframes I knew already I wanted my main page to hold the apps core functionality and the nav menu to hold most of the company/app information.
 Also wanted to challenge myself on making a navbar from scratch and not from pre-built classes via Bootstrap. My navbar example was found on [W3School](https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp) and adapted to suit my purpose.
-I itinally set up the mark up for my nav and styles. After I put the JS function into a external file and linked to them on my app. Tested the functionality was working by running my app and manually clicking the open or close element.
+I initially set up the mark up for my nav and styles. After I put the JS function into a external file and linked to them on my app. Tested the functionality was working by running my app and manually clicking the open or close element.
 Once I was happy with the functionality of the navbar and responsiveness I started on the dummy content. Added couple more features to my app to make it a little more design friendly and interactive.
 
-Added a Pace JS Loading bar, this is like the GitHub loading bar or YouTube loading bar on AJAX reuqest/ re-directs when the DOM is loading. So I found pace to be a minialistic byte size plugin for UI/UX page loads. It adds a fancy way of showing the user
-the the webpage is loading. [Pace can be found here](https://github.hubspot.com/pace/docs/welcome/) 
+Added a Pace JS Loading bar, this is like the GitHub loading bar or YouTube loading bar on AJAX request/ re-directs when the DOM is loading. So I found pace to be a minimalistic byte size plugin for UI/UX page loads. It adds a fancy way of showing the user
+the webpage is loading. [Pace can be found here](https://github.hubspot.com/pace/docs/welcome/) 
 
 How to use and implement pace onto a project can be found [here](https://github.hubspot.com/pace/). 
-**I have actually removed the Pace loading bar out of my app but left the test case in**
-For testing the pace loading bar was working, I added the script to my apps directory linked to it via script tags and link tags to the plugin CSS and JS, upon loading my app there was a youtube/github style loading bar
-I found this to only work on page load as my app is a single page application I decided the loading bar was irrvelevant and removed this from the design. 
+**I have removed the Pace loading bar out of my app but left the test case in**
+For testing the pace loading bar was working, I added the script to my apps directory linked to it via script tags and link tags to the plugin CSS and JS, upon loading my app there was a YouTube/GitHub style loading bar
+I found this to only work on page load as my app is a single page application, I decided the loading bar was irrelevant and removed this from the design. 
 
-A fork me Ribbon was added to add a little projectory touch to my app and also to allow users to be able to find the source code to how the app was built. With the app's repo there is documentation to guilde users on getting a copy of my app onto their
-local developer mahcine to adapt or expand. 
+A fork me Ribbon was added to add a little projectory touch to my app and to allow users to be able to find the source code to how the app was built. With the app's repo there is documentation to guide users on getting a copy of my app onto their
+local developer machine to adapt or expand. 
 
-I started to be able to see the desgin coming together from the wireframes bit by bit. After added a couple plugin I started on added my social links and added some effects to improve UI/UX and interactivity. 
-Added social icons with interactivty onto the homepage and also put all social connection onto the navbar.
+I started to be able to see the design coming together from the wireframes bit by bit. After added a couple plugin I started on added my social links and added some effects to improve UI/UX and interactivity. 
+Added social icons with interactivity onto the homepage and put all social connection onto the navbar.
 
 At this stage I am nearly finished with the design from my wireframing just got to add the form that will process data to the API and output what response we get back and present this is a way the user can 
-effectly see a translation.
+effectively see a translation.
 
-After adding form mark up I styles this for responsive and then start the API script for making calls to the Yandex API. 
+After adding form mark-up I styles this for responsive and then start the API script for making calls to the Yandex API. 
 
 More information on the [Yandex API](https://tech.yandex.com/translate/). 
 
-To test my script I manually made it bit by bit using the Yandex API tools. I created this app in VueJS after being more confident with Axios and XMLHttprequests I decided to re-create my app purely with JS.
+To test my script, I manually made it bit by bit using the Yandex API tools. I created this app in VueJS after being more confident with Axios and XMLHttprequests I decided to re-create my app purely with JS.
 
 A good tool for testing how to send the URL to the Yandex API was via this [page](https://translate.yandex.com/?lang=en-ru&text=asdasda).
 
-I first made the script to call the API and handle the repsonse sent back. To start with I use UK - ES (spanish) preset until I was confidently able enough to handle the response and get it to output to the textarea correctly.
-Once this function was working I started building the call to pull all the availible languages that the Yandex API offers. I create a function to append all the options to the dropdown box within my form. Then adapted the translate function
+I first made the script to call the API and handle the response sent back. To start with I use UK - ES (Spanish) pre-set until I was confidently able enough to handle the response and get it to output to the textarea correctly.
+Once this function was working, I started building the call to pull all the available languages that the Yandex API offers. I create a function to append all the options to the dropdown box within my form. Then adapted the translate function
 to include the selectedLang to which the user wants to translate. 
 
-Axios is used with my script to create a promised base XMLHttprequest to the Yandex API. More on the Axios libaries can be found in the features section.
+Axios is used with my script to create a promised base XMLHttprequest to the Yandex API. More on the Axios libraries can be found in the features section.
 
-Upon testing my functionality to my translator I noticed the outputted textarea was leaving a trailing letter after the user had removed all text from the input textarea. To fix this I added a else statement at the end of my script to check 
+Upon testing my functionality to my translator, I noticed the outputted textarea was leaving a trailing letter after the user had removed all text from the input textarea. To fix this I added a else statement at the end of my script to check 
 if the input text area is empty then to empty the outputted text area.
 
 
-After my websites core functionality was in place I wanted to a little more tech from what i've learnt from the course so far, I decided to add in some jQuery for manipulation of the DOM. from using what we learnt in the jquery module
-I added some mouse events on certain elements to my website. To test these I checked console for any script or linking errros and manaully testing the mouse events on most browsers that are supported and on devices that I could get my hands on.
+After my websites core functionality was in place, I wanted to a little more tech from what i've learnt from the course so far, I decided to add in some jQuery for manipulation of the DOM. from using what we learnt in the jQuery module
+I added some mouse events on certain elements to my website. To test these I checked console for any script or linking errors and manually testing the mouse events on most browsers that are supported and on devices that I could get my hands on.
 **My app does not work on Internet Explorer, but will work on all modern browser where new tech is supported.**
 
 #### Responiveness
 
-I have tested the repsonsiveness on all browsers I can, these include Firefox, Opera, Chrome, Edge.
-Devices I've tested functionality and responsiveness on that i can are, Samsung S8/9 Iphone 6/7
-I have tested the repsonsiveness using Chrome DevTools check all width and height breakpoints and also testing on chrome built in pre-defined presets for devices.
+I have tested the responsiveness on all browsers I can, these include Firefox, Opera, Chrome, Edge.
+Devices I've tested functionality and responsiveness on that i can are, Samsung S8/9 iPhone 6/7
+I have tested the responsiveness using Chrome DevTools check all width and height breakpoints and also testing on chrome built in pre-defined pre-sets for devices.
 
-Where I found any issue with my reponsiveness I fixed by using the devtools to inspect what element or CSS was causing the issue and rectified within devtools before apply any final rectifications to my app. 
+Where I found any issue with my responsiveness I fixed by using the devtools to inspect what element or CSS was causing the issue and rectified within devtools before apply any final rectifications to my app. 
 
-All fixed will be captured within seperate version commits.
+All fixed will be captured within separate version commits.
 
 Some manually test I conducted were;
 
@@ -312,24 +312,24 @@ Some manually test I conducted were;
 + Click events with the mouse
 + Hover events with the mouse
 + TypedJs was testing manually by loading my webapp and visually checking the plugin worked correctly as expected
-+ Language call to API manually tested dropdown box untill all languages appended correctly
-+ Different brower testing
++ Language call to API manually tested dropdown box until all languages appended correctly
++ Different browser testing
 + Different device testing
 + Asked other student to use and feed any issues back via Slack
-+ Had my mentor look over all the source and the live app and feed back any issues
-+ Got friends and family to test and use the app and feed back any issues
++ Had my mentor look over all the source and the live app and feedback any issues
++ Got friends and family to test and use the app and feedback any issues
 
 
 #### HTML & CSS
 
-All my HTML is valid and CSS is valid.
+All my HTML is valid, and CSS is valid.
 
 [HTML Validator](https://validator.w3.org/)
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 #### Minifier used
 
-I use minified varsion of my files to improve website performance. 
+I use minified version of my files to improve website performance. 
 
 [CSS Minifier](https://cssminifier.com/)
 
@@ -348,7 +348,7 @@ To adapt or expand on this project uploads all ZIP folder to your local IDE deve
 All dependencies are links via CDN in the index.html so no dependencies for this app except CDN links. If for any strange reason a CDN link is down or not working all resources used for this app
 are documented within the readme and on their GitHub will be full guides on how to install directly into your developer environment. 
 
-No server side dependencies needed, front end website only.
+No server-side dependencies needed, front end website only.
 
 ---
 
