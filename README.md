@@ -103,7 +103,7 @@ Axios is a promised based HTTP client for the browser and node.js.
 
 ---
 
-###### Installing Axios 
+#### Installing Axios 
 Using NPM: 
 ```
 $ npm i axios
@@ -113,11 +113,11 @@ Using bower:
 ```
 $ bower install axios
 ```
-Using CDN: ** This is the way I've decided to use axios on my app. **
+Using CDN: **This is the way I've decided to use axios on my app.**
 ```html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
-###### Example of Axios 
+#### Example of Axios 
 Get Request using promised base (.then .catch etc)
 ```javascript
 // Make a request using axios.get 
@@ -139,10 +139,10 @@ if(searchText != '') {
     document.querySelector('#translation').value = '';
 }
 ```
-** Future improvement to my app's API script could be to add in text-to-speech so that once translation is complete there could be a button/option to speak out load the translated text. **
+**Future improvement to my app's API script could be to add in text-to-speech so that once translation is complete there could be a button/option to speak out load the translated text.**
 
 
-###### Why Particles.js
+#### Why Particles.js
 
 Particles.js by VincentGarreau is a minimal plugin used for creating interactive background styles. 
 
@@ -201,7 +201,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [Pace Loading bar](https://github.com/HubSpot/pace)
     - Fancy AJAX loading bar used thanks to **HubSpot**
-** Pace now removed from app as wanted to keep plugins to a minimal and pace wasn't activated much so removed to improve site performance. **
+**Pace now removed from app as wanted to keep plugins to a minimal and pace wasn't activated much so removed to improve site performance.**
 
 - [Bootswatch](https://bootswatch.com/united/)
     - Bootstrap Bootswatch United theme used for faster development thanks to **Thomas Park**
@@ -210,7 +210,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - GitHub ribbon used thank you **mojombo**
 
 - [Typed JS](https://github.com/mattboldt/typed.js/)
-    - Typed effect used to improve UI/UX on the design. ** Matt Boldt **
+    - Typed effect used to improve UI/UX on the design. **Matt Boldt**
 
 - [CanIUse](https://caniuse.com/)
     - Check all supported browers for CSS **Lennart Schoors**
@@ -246,7 +246,7 @@ Within my HTML file I CDN linked to [Particles.JS](https://vincentgarreau.com/pa
 ```
 
 Once satified I tested the background on different browsers and screen sizes and also devices. 
-** My app is not support on Internet Explorer due to modern tech used. Please consider using my app on Chrome, Firefox or Microsoft Edge.**
+**My app is not support on Internet Explorer due to modern tech used. Please consider using my app on Chrome, Firefox or Microsoft Edge.**
 
 I have been through [CanIUse](https://caniuse.com/) and added all browser prefixes for older browser to get my app support on as many as possible browsers. I ideally wanted to leave this out so that it forced users to update their
 browser but then consider this bad UX.
@@ -260,7 +260,7 @@ Added a Pace JS Loading bar, this is like the GitHub loading bar or YouTube load
 the the webpage is loading. [Pace can be found here](https://github.hubspot.com/pace/docs/welcome/) 
 
 How to use and implement pace onto a project can be found [here](https://github.hubspot.com/pace/). 
-** I have actually removed the Pace loading bar out of my app but left the test case in **
+**I have actually removed the Pace loading bar out of my app but left the test case in**
 For testing the pace loading bar was working, I added the script to my apps directory linked to it via script tags and link tags to the plugin CSS and JS, upon loading my app there was a youtube/github style loading bar
 I found this to only work on page load as my app is a single page application I decided the loading bar was irrvelevant and removed this from the design. 
 
@@ -293,9 +293,9 @@ if the input text area is empty then to empty the outputted text area.
 
 After my websites core functionality was in place I wanted to a little more tech from what i've learnt from the course so far, I decided to add in some jQuery for manipulation of the DOM. from using what we learnt in the jquery module
 I added some mouse events on certain elements to my website. To test these I checked console for any script or linking errros and manaully testing the mouse events on most browsers that are supported and on devices that I could get my hands on.
-** My app does not work on Internet Explorer, but will work on all modern browser where new tech is supported. **
+**My app does not work on Internet Explorer, but will work on all modern browser where new tech is supported.**
 
-###### Responiveness
+#### Responiveness
 
 I have tested the repsonsiveness on all browsers I can, these include Firefox, Opera, Chrome, Edge.
 Devices I've tested functionality and responsiveness on that i can are, Samsung S8/9 Iphone 6/7
@@ -307,7 +307,7 @@ All fixed will be captured within seperate version commits.
 
 Some manually test I conducted were;
 
-###### Mouse events
+#### Mouse events
 + Manually inputted data to form and checking outputted text again a real translator
 + Click events with the mouse
 + Hover events with the mouse
@@ -320,14 +320,14 @@ Some manually test I conducted were;
 + Got friends and family to test and use the app and feed back any issues
 
 
-###### HTML & CSS
+#### HTML & CSS
 
 All my HTML is valid and CSS is valid.
 
 [HTML Validator](https://validator.w3.org/)
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-###### Minifier used
+#### Minifier used
 
 I use minified varsion of my files to improve website performance. 
 
@@ -359,10 +359,10 @@ All content used is dummy content and the paragraphs are created using emmet lor
 
 ### Media
 Fork me Ribbon used from - [GitHub Fork Me Ribbon] (https://blog.github.com/2008-12-19-github-ribbons/)
-    - GitHub ribbon used thank you **mojombo** 
+    - GitHub ribbon used thank you **mojombo**
     
 Favicon create by me using GIMP.
-** UPDATE: Favicon changed due to being pixelated, used free favicon see section in features. ** 
+**UPDATE: Favicon changed due to being pixelated, used free favicon see section in features.**
 
 ---
 
