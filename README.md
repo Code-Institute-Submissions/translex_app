@@ -72,7 +72,7 @@ As a user working in a airport a lot of people ask questions in different langua
 Wireframes for Desktop views:- 
 
 [!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-home.png?raw=true) 
-[!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-menu.png?raw=true)
+[!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-menu.png)
 
 ---
 
