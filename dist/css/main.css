@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: #868e96;
+    color: #c2cdd8;
     text-decoration: none;
     background-color: transparent;
     transition: all 0.5s ease-in-out;
@@ -23,6 +23,11 @@ a {
 
 a:hover {
     color: #EFB73E;
+    text-decoration: none;
+}
+
+.text-muted {
+    color: #c2cdd8!important;
 }
 
 /* Particles JS */
@@ -431,10 +436,21 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .home-social {
         display: none;
     }
+}
+
+@media only screen and (max-width: 770px) {
+     .info-heading {
+        color: white;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
 
     .info-social i {
         font-size: 1rem;

@@ -68,8 +68,6 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
-
-
 // Title typed.js
 
     var typed = new Typed('#typed', {
@@ -159,7 +157,6 @@ $('.closebtn').on({
         $('.closebtn').removeClass('spin-me');
     }
 });
-
 
 
 });
