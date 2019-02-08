@@ -357,6 +357,24 @@ are documented within the readme and on their GitHub will be full guides on how 
 
 No server-side dependencies needed, front end website only.
 
+#### Deployment on production server (web hosting)
+
+TO get my site running on the world wide web, download the repo as ZIP folder and upload this to your publin_html folder or www. folder. ANy confusion ask your hosting company.
+
+Once the ZIP folder is uploaded to the web server extract this, providing you have domain name the site will be sat at your root.
+
+Type the domain name in and hit enter, the site will load as expected.
+
+##### Expanding on my project
+
+For anyone wanting to expand on this project I have release under MIT and will list some instructions on how to get a copy and get running it yuorself.
+
+A perferred way is to clone my repo and do a git pull from the IDE's command line or from the command prompt into your projects blank folder.
+
+```git
+git pull <repo name>
+```
+
 ---
 
 ### Content
