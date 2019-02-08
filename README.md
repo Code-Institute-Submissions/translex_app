@@ -1,27 +1,27 @@
 # TransLex
 ## [Demo Here](https://shanemuir.github.io/translex_app/)
 
-A single page application for translating words or sentences between multiple languages. The aim of the project is to showcase the HTML5, CSS3, JavaScript and various other tools for creating dynamic
+A single page application for translating English words or sentences between multiple languages. The aim of the project is to showcase the HTML5, CSS3, JavaScript and various other tools for creating dynamic
 interactive frontend applications.
 
-Throughout this project I will try make use of jQuery for easier manipulation of the DOM and faster production of my application. Where I can I will try to also use plain old JavaScript if jQuery isn’t needed!
+Throughout this project I will try make use of jQuery for easier manipulation of the DOM and faster production of my application. Where I can I will try to use Vanilla JS if jQuery isn’t needed!
 
 The app was inspired by a YouTube video where a developer builds a app in Vue.Js 
 I challenged myself after following along with the videos to make this app without Vue in plain JS. 
 
-I felt this was a perfect opportunity to show case my skills that's been learnt so far throughout the course. The app makes use of XMLHttprequests to an API. Using a special key my app can call 
-the API with params and receive back a response. This response is then out putted to the text area as translated text.
+I felt this was a perfect opportunity to show case my skills that's been learnt so far throughout the course. The app makes use of XMLHttprequests to the Yandex API. Using a special key my app can call 
+the API with params and receive back a response. This response is then output to the lower text area as translated text.
 
 The sole functionality of the app was centred around translation, but where possible I have tried to implement features to show case skills learnt from #User-Centric Frontend and #Interactivity Frontend
 modules. The sites makes use of jQuery, JavaScript CSS3 and HTML5. 
 
-External libraries have been implemented to improve UI/UX and to keep development time short and not to reinvent the wheel. 
+External libraries which can be found at the "Technologies Used" section of this document, technologies have been implemented to improve the user interface and to improve user experience. 
 
 Taking what I learnt from the API section, the jQuery section and all other skills learnt throughout I have been able to put together a responsive modern looking single page 
 translator app for use on the web. 
 
 The app makes use of icons for bookmarking purposes, where users can bookmark the site on desktop/mobile or tablet and be able to quickly load the app for translation purposes. 
-The design is so that ease of functionality can be maintained.
+The design was created to maximise the ease of functionality.
 The navigation is design to hold information around TransLex without being intrusive to the initial landing page. 
 
 ---
@@ -46,7 +46,7 @@ I’d like an app that I can open swiftly and get a word or sentence translated 
 
 I wish there was a website that could be straight forward to use, for translating languages.
 
-Is there a site out there that isn't a bulky monster for just translating a word or sentence? 
+As a user is there a site out there that isn't a bulky monster for just translating a word or sentence? 
 
 There should be an app which I can bookmark to my phone or my books mark bar and instantly be able to load quickly up an app that can translate to many other languages. 
 
@@ -69,6 +69,10 @@ As a user working in a airport a lot of people ask questions in different langua
 ### Wireframes 
 
 
+Wireframes for Desktop views:- 
+
+[!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-home.png?raw=true) 
+[!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-menu.png?raw=true)
 
 ---
 
@@ -89,8 +93,8 @@ Overlay Nav was an alternative to getting lots of information on the page whilst
 
 The design was solely designed for easy use of the translator, the nav is designed in a way to hold all information and contact details, social info whilst not be intrusive to the app.
 
-Interactivity is used around the site to show case tech I’ve learnt throughout my course with Code Institute, I feel the site demonstrates good used of JavaScript I created my API script with just Axios aa promised based HTTP client
-Axios was mainly used for its ability to be able to make XMLHttpreuqests from the browser, and also intercept request and responses in a promised based way. 
+Interactivity is used around the site to show case tech I’ve learnt throughout my course with Code Institute, I feel the site demonstrates good used of JavaScript I created my API script with Axios a promised based HTTP client
+Axios was mainly used for its ability to be able to make XMLHttprequests from the browser, and also intercept request and responses in a promised based way. 
 
 Axios has built in Client-side support for protecting against [XSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) to prevent malicious exploit of a website where unauthorized command is transmitted from a user that the web applications trusts.
 
@@ -291,15 +295,15 @@ Upon testing my functionality to my translator, I noticed the outputted textarea
 if the input text area is empty then to empty the outputted text area.
 
 
-After my websites core functionality was in place, I wanted to a little more tech from what i've learnt from the course so far, I decided to add in some jQuery for manipulation of the DOM. from using what we learnt in the jQuery module
+After my websites core functionality was in place, I wanted to a little more tech from what I've learnt from the course so far, I decided to add in some jQuery for manipulation of the DOM. from using what we learnt in the jQuery module
 I added some mouse events on certain elements to my website. To test these I checked console for any script or linking errors and manually testing the mouse events on most browsers that are supported and on devices that I could get my hands on.
 **My app does not work on Internet Explorer, but will work on all modern browser where new tech is supported.**
 
-#### Responiveness
+#### Responsiveness
 
 I have tested the responsiveness on all browsers I can, these include Firefox, Opera, Chrome, Edge.
-Devices I've tested functionality and responsiveness on that i can are, Samsung S8/9 iPhone 6/7
-I have tested the responsiveness using Chrome DevTools check all width and height breakpoints and also testing on chrome built in pre-defined pre-sets for devices.
+Devices I've tested functionality and responsiveness on are, Samsung S8/9 iPhone 6/7.
+I have also tested the responsiveness using Chrome DevTools check all width and height breakpoints and also testing on chrome built in pre-defined pre-sets for devices.
 
 Where I found any issue with my responsiveness I fixed by using the devtools to inspect what element or CSS was causing the issue and rectified within devtools before apply any final rectifications to my app. 
 
@@ -355,6 +359,8 @@ No server-side dependencies needed, front end website only.
 ### Content
 All content used is dummy content and the paragraphs are created using emmet lorem text.
 
+**Update** Content used on the site is now fictional as I feel the purpose of the text used gives meaning and instructions to the user.
+
 ---
 
 ### Media
@@ -373,5 +379,4 @@ Credit must be given to Stack overflow, YouTube, GitHub and Google as these are 
 
 ### Acknowledgements
 - I received inspiration for this project from Traversy Media build a Vue translator App (https://www.youtube.com/watch?v=DBADrF0C2ls)
-
 
