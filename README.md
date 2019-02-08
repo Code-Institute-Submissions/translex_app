@@ -68,11 +68,14 @@ As a user working in a airport a lot of people ask questions in different langua
 
 ### Wireframes 
 
+[Desktop Home View](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-home.png?raw=true) 
+[Desktop Menu View](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-menu.png?raw=true)
 
-Wireframes for Desktop views:- 
+[Tablet Home View](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Tablet-home.png?raw=true)
+[Tablet Menu View](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Tablet-menu.png?raw=true)
 
-[!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-home.png?raw=true) 
-[!image](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Desktop-menu.png)
+[Mobile Home View](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Mobile-home.png?raw=true)
+[Mobile Menu View](https://github.com/ShaneMuir/translex_app/blob/master/wireframes/Mobile-menu.png?raw=true)
 
 ---
 
